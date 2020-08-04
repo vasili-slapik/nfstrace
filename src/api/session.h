@@ -62,7 +62,7 @@ struct Session
         {
             uint8_t  addr[2][16];
             uint32_t addr_uint32[2][4];
-        } __attribute__((__packed__)) v6;
+        } v6;
     } ip;
 };
 
